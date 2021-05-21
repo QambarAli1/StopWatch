@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.time h1 , .btns button{
+    height: 40px;
+    text-align: center;
+    color: white;
+   
+}
+.time{
+    display: flex;
+    flex-direction: row; 
+}
+button{
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+}
+.heading , p{
+    color: white;
+    margin-top: 0px;
+}
+.mob-ui{
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border-radius: 20px;
+    margin: 70px;
+    margin-left: 550px;
+    border: 1px solid white;
+    box-shadow:  2px 2px rgb(170, 160, 160);
+}
+.stopwatch{
+    padding: 70px;
+    width: 100%;
+}
+.btns{
+    margin-left: -8px;
+}
+p{
+    margin-top: 200px;
+}
+@media screen and (max-width: 700px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+    .mob-ui{
+        margin: 0;
+        width: 230px;
+        height: 400px;
+        padding: 10px;
+        margin-left: 50px;
+        margin-top: 80px;
+        
+    }  
+    .stopwatch{
+        padding: 20px;
+        width: 230px;
+        
+    }
+    p{
+        margin-top: 180px;
+    }
+}
+
+/* created by Qambar Ali */
